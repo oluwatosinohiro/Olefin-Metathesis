@@ -1,0 +1,39 @@
+Writing run/graphs/pdf/temperatures/693.15K/coverage_bar.pdf
+Writing run/graphs/png/temperatures/693.15K/coverage_bar.png
+Writing run/graphs/pdf/temperatures/693.15K/coverage_line.pdf
+Writing run/graphs/png/temperatures/693.15K/coverage_line.png
+Writing run/graphs/pdf/temperatures/693.15K/derivatives.pdf
+Writing run/graphs/png/temperatures/693.15K/derivatives.png
+Writing run/graphs/pdf/coverage_bar.pdf
+Writing run/graphs/png/coverage_bar.png
+Writing run/graphs/pdf/coverage_line.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/coverage_line.pdf
+Writing run/graphs/png/coverage_line.png
+Writing run/graphs/data/derivative.txt
+Writing run/graphs/pdf/derivative.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/derivative.pdf
+Writing run/graphs/png/derivative.png
+Writing run/graphs/pdf/rates.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/rates.pdf
+Writing run/graphs/png/rates.png
+Writing run/graphs/pdf/orders.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/orders.pdf
+Writing run/graphs/png/orders.png
+Writing run/graphs/pdf/eact.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/eact.pdf
+Writing run/graphs/png/eact.png
+Writing run/graphs/pdf/drc_line.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/drc_line.pdf
+Writing run/graphs/png/drc_line.png
+Writing run/graphs/pdf/drc_bar.pdf
+Writing run/graphs/png/drc_bar.png
+Writing run/graphs/pdf/tdrc_line.pdf
+Less than 4 datapoints; reverting to simple line
+Writing run/graphs/pdf/tdrc_line.pdf
+Writing run/graphs/png/tdrc_line.png

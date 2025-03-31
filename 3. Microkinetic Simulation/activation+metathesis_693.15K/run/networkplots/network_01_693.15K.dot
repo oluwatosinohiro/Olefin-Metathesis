@@ -1,0 +1,50 @@
+strict digraph G {
+	layout=dot
+	rotate=0
+	ratio=1
+	rankdir=TB
+	"M6" -> "A1" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M6" -> "C3" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M2" -> "M3" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"E2" -> "E3" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"E1" -> "E2" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"A1" -> "M1" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"C4" -> "M1" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M3" -> "A2" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M3" -> "C3" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"B1" -> "S0" [label="1.01e-30",fontname="monospace",penwidth=1,color=black];
+	"B1" -> "C4" [label="1.01e-30",fontname="monospace",penwidth=1,color=black];
+	"A2" -> "M4" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"C2" -> "M4" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M4" -> "M5" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"E3" -> "A1" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"E3" -> "CH2O" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"B3" -> "B2" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"A2" -> "B3" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"C2H4O" -> "B3" [label="1.00e-30",fontname="monospace",penwidth=1,color=black];
+	"B1" -> "B2" [label="6.31e-30",fontname="monospace",penwidth=1,color=black];
+	"M5" -> "M6" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"M1" -> "M2" [label="8.71e+01",fontname="monospace",penwidth=7,color=crimson];
+	"S0" -> "E1" [label="1.01e-30",fontname="monospace",penwidth=1,color=black];
+	"C2" -> "E1" [label="1.01e-30",fontname="monospace",penwidth=1,color=black];
+	"M6"[fontname="monospace",shape=hexagon,label="M6\n7.6752e-08"];
+	"A1"[fontname="monospace",shape=hexagon,label="A1\n2.41629e-12"];
+	"M1"[fontname="monospace",shape=hexagon,label="M1\n4.62421e-05"];
+	"E1"[fontname="monospace",shape=hexagon,label="E1\n9.44486e-30"];
+	"C3"[fontname="monospace",shape=hexagon,label="C3\n-1.44507e-28",fillcolor=black,style=filled,fontcolor=white];
+	"E2"[fontname="monospace",shape=hexagon,label="E2\n1.40781e-31"];
+	"M2"[fontname="monospace",shape=hexagon,label="M2\n0.0241258"];
+	"E3"[fontname="monospace",shape=hexagon,label="E3\n4.20359e-44"];
+	"M3"[fontname="monospace",shape=hexagon,label="M3\n2.96051e-07"];
+	"C4"[fontname="monospace",shape=hexagon,label="C4\n2.5",fillcolor=black,style=filled,fontcolor=white];
+	"A2"[fontname="monospace",shape=hexagon,label="A2\n9.30168e-09"];
+	"S0"[fontname="monospace",shape=hexagon,label="S0\n1.89315e-30"];
+	"B1"[fontname="monospace",shape=hexagon,label="B1\n2.12264e-23"];
+	"M4"[fontname="monospace",shape=hexagon,label="M4\n5.78916e-08"];
+	"C2"[fontname="monospace",shape=hexagon,label="C2\n2.5",fillcolor=black,style=filled,fontcolor=white];
+	"M5"[fontname="monospace",shape=hexagon,label="M5\n0.975828"];
+	"CH2O"[fontname="monospace",shape=hexagon,label="CH2O\n-3.55662e-31",fillcolor=black,style=filled,fontcolor=white];
+	"B2"[fontname="monospace",shape=hexagon,label="B2\n8.33165e-26"];
+	"B3"[fontname="monospace",shape=hexagon,label="B3\n2.34001e-33"];
+	"C2H4O"[fontname="monospace",shape=hexagon,label="C2H4O\n9.02218e-27",fillcolor=black,style=filled,fontcolor=white];
+}
