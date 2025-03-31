@@ -1,1 +1,1 @@
-lksno
+This repository contains CONTCAR files and VASP OUTCAR files for the "Atomistic Modeling of The Active Site Formation Mechanism and Olefin Metathesis Kinetics for WOxSiO2"

@@ -1,0 +1,47 @@
+! This is an example for the lobster control file lobsterin.
+! (See, here we are using the comment function!)
+!
+! First, enter the energetic window in eV (relative to the Fermi level):
+!
+COHPStartEnergy -20
+COHPEndEnergy 20
+!
+! Then, specify which types of valence orbitals to use:
+includeOrbitals s p d
+! You can also specify the basis functions per element manually, e.g.:
+! basisFunctions O 2s 2p
+! basisFunctions W 5s 4s 4p ! Sr_sv potential
+!
+! Now define the pairs for which COHP analysis etc. should be done.
+! The atoms are numbered as per order in the PAW-code control file.
+! cohpBetween atom 198 atom 264 ! O and W
+!
+! If you are interested in single orbital COHPs, you can get all the pairs
+! like s-s, s-p_x, ..., p_z-p_z. Uncomment this line to switch it on:
+!
+cohpBetween atom 204 atom 270 orbitalWise
+cohpBetween atom 49 atom 270 orbitalWise
+cohpBetween atom 2 atom 270 orbitalWise
+cohpBetween atom 1 atom 2 orbitalWise
+!
+! If you want to generate the COHP pairs automatically, use this to include
+! all pairs in a given distance range (in Angstrom, not in atomic units):
+! cohpGenerator from 1.4 to 1.5
+! cohpGenerator from 1.4 to 1.5 type Ga type Sr
+! and in the latter case only between the specified elements
+!
+! If you want to transfer the LCAO basis set into a molecular- or fragment-
+! orbital basis set, you can tell LOBSTER to combine any number of atoms:
+! molecule atom 1 atom 2 atom 3 cell 1 0 0
+!
+molecule atom 204 atom 270
+molecule atom 49 atom 270
+molecule atom 2 atom 270
+molecule atom 1 atom 2
+!
+! If molecules or fragments are defined, COHP pairs can be generated as
+! follows:
+! cohpGenerator from 1.4 to 1.5 type Ca type CO3
+! Note that the type definition of molecules is case sensitive!
+! E.g., CO will be interpreted as carbon monoxide, Co as cobalt.
+! The order of atoms is arbitrary: E.g., CO3 = COOO = O3C = O2CO; and so on
