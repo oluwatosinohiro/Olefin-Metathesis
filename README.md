@@ -9,14 +9,14 @@ This folder contains studies on the activation mechanisms of WOx/SiO₂ catalyst
 #### C<sub>2</sub> Activation
 + Pseudo-Wittig Mechanism: Surface activation of W(VI) to tungsta-alkylidene using C<sub>2</sub>.
 + Surface Reduction: Surface reduction of the W(VI) to W(IV) using C<sub>2</sub>.
-  - Vinylic Mechanism: Coordination of vinylic hydrogen of ethene to the tungsten center to facilitate tungsta-alkylidene generation
+  - Vinylic Mechanism: Coordination of vinylic hydrogen of ethene to the tungsten center to facilitate tungsta-alkylidene generation.
   - Carbon-Carbon Hydrogen Transfer Mechanism: Direct hydrogen transfer leading to tungsta-alkylidene formation.
 
 #### C<sub>4</sub> Activation
 + Pseudo Wittig Mechanism: Surface activation of W(VI) to tungsta-alkylidene using C<sub>2</sub>.
 + Surface Reduction: Surface reduction of the W(VI) to W(IV) using C<sub>4</sub>.
-  + Vinylic Mechanism: Coordination of vinylic hydrogen of C<sub>4</sub> to the tungsten center to facilitate tungsta-alkylidene generation
-  + Indirect Allylic Mechanism: Alkylidene formation, exploring allylic intermediates.
+  + Vinylic Mechanism: Coordination of vinylic hydrogen of C<sub>4</sub> to the tungsten center to facilitate tungsta-alkylidene generation.
+  + Indirect Allylic Mechanism: Tungsta-alkylidene formation, involving the participation of hydrogen from  an allylic carbon.
 
 ### 2. Metathesis
 This folder contains data that explores olefin metathesis reaction pathways.
